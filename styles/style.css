@@ -79,7 +79,7 @@ body {
 }
 .presentacion__enlaces__link{
     
-    width: 50%;
+    width: auto;
     text-align: center;
     padding: 21.5px 0;
     border-radius: 8px;
@@ -87,11 +87,11 @@ body {
     font-size: 1.5rem;
     font-weight: 600px;
     text-decoration: none;
-    color: #f6f6f6;
-    border: 2px solid  #22d4fd;
+    color: var(--color-secundario);
+    border: 2px solid var(--color-terciario);
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 16px;
 
 }
 .presentacion__enlaces__link:hover{
@@ -105,7 +105,7 @@ body {
 .footer{
     background-color: var(--color-terciario);
     padding: 1.5rem;
-    color: #000000;
+    color: var(--color-primario);
     text-align: center;
     font-family: var(--fuente-montserrat);
 
@@ -126,7 +126,8 @@ body {
         flex-direction: column-reverse;
         padding: 5%;
     }
-}
+
 .presentacion__contenido{
     width: auto;
+}
 }
